@@ -30,6 +30,7 @@ const progressPercent = document.getElementById('progress-percent');
 const btnCatDay = document.getElementById('btn-cat-day');
 const btnCatNight = document.getElementById('btn-cat-night');
 const btnCatIala = document.getElementById('btn-cat-iala');
+const btnCatFlags = document.getElementById('btn-cat-flags');
 const trainerBackImageWrapper = document.getElementById('trainer-back-image-wrapper');
 const trainerBackImg = document.getElementById('trainer-back-img');
 const trainerBackScroll = document.getElementById('trainer-back-scroll');
@@ -147,6 +148,17 @@ function setupEventListeners() {
         btnModeQuiz.style.pointerEvents = '';
         updatePdfLinks();
     });
+
+    if (btnCatFlags) {
+        btnCatFlags.addEventListener('click', () => {
+            selectedCategory = 'flags';
+            btnCatFlags.classList.add('active');
+            btnCatDay.classList.remove('active');
+            btnCatNight.classList.remove('active');
+            btnCatIala.classList.remove('active');
+            updatePdfLinks();
+        });
+    }
 
     // Mode toggles in startup menu
     btnModeTrainer.addEventListener('click', () => {
@@ -516,175 +528,79 @@ function navigateTrainer(direction) {
 }
 
 /* ==========================================================================
-   QUIZ MODE LOGIC (Step-wise Quiz System)
+   QUIZ MODE LOGIC (Robust MCQ System)
    ========================================================================== */
 
-const vesselTypesList = [
-    "Power-Driven Vessel (P/D Vsl)",
-    "Towing / Pushing Vessel (Tow)",
-    "Trawler",
-    "Fishing Vessel (not trawling)",
-    "Sailing Vessel",
-    "Air-Cushion Vessel",
-    "Pilot Vessel",
-    "Mine Clearance Vessel",
-    "Constrained by Draft (C.B.D.)"
-];
-
-const maneuveringStatusesList = [
-    "Underway (Making Way)",
-    "Underway (Stopped / Not Making Way)",
-    "At Anchor",
-    "Restricted in Ability to Maneuver (R.A.M.)",
-    "Towing alongside / Pushing ahead",
-    "Underway (Towing / Pushing)",
-    "Mine clearance operations",
-    "Dredging / Obstruction operations",
-    "Not Under Command (N.U.C.)",
-    "Vessel Aground"
-];
-
-const seenFromList = [
-    "seen from port side",
-    "seen from starboard side",
-    "seen end on",
-    "seen from astern",
-    "not specified"
-];
-
 function loadQuizQuestion() {
-
-    // Hide feedback panel
     quizFeedbackPanel.classList.add('hidden');
     quizOptionsContainer.innerHTML = '';
     
     if (currentQueue.length === 0 || currentIndex >= currentQueue.length) return;
     
     const item = currentQueue[currentIndex];
+    const type = item.type;
+    const card = (cardsData[type] && cardsData[type][item.cardId]) || {};
     
-    if (item.type === 'iala') {
-        quizCardFailed = false;
-        
-        // Configure IALA specific static options
-        quizQuestionImg.src = `images/iala/question_${item.cardId}.png`;
-        quizQuestionImg.alt = `Quiz IALA Buoyage Card #${item.cardId}`;
+    quizCardFailed = false;
+
+    // Image & Label configuration
+    if (type === 'iala') {
+        quizQuestionImg.src = `images/iala/bouysimage${item.cardId}.gif`;
+        quizQuestionImg.alt = `Quiz IALA Card #${item.cardId}`;
         quizCardNumberLabel.textContent = `IALA Card #${item.cardId}`;
         quizQuestionTypeBadge.textContent = 'IALA Buoyage';
         quizQuestionTypeBadge.className = 'badge badge-teal';
-        
-        quizPromptText.textContent = "Can you identify this buoy? Study it and click below to show the answer.";
-        
-        // Show only the "Show Answer" button
-        quizOptionsContainer.innerHTML = '';
-        const btnShow = document.createElement('button');
-        btnShow.type = 'button';
-        btnShow.className = 'btn btn-primary btn-large';
-        btnShow.style.width = '100%';
-        btnShow.innerHTML = `<i class="fa-solid fa-eye"></i> Show Answer`;
-        btnShow.addEventListener('click', revealIalaAnswer);
-        quizOptionsContainer.appendChild(btnShow);
-        return;
-    }
-
-    const isDay = item.type === 'day';
-    const card = cardsData[item.type][item.cardId];
-    
-    quizCardFailed = false;
-    quizCurrentStep = 1;
-    quizStepsList = [
-        {
-            type: 'type_of_vessel',
-            correctText: card.type_of_vessel,
-            prompt: "Step 1 of 4: Identify the Type of Vessel:"
-        },
-        {
-            type: 'maneuvering_status',
-            correctText: card.maneuvering_status,
-            prompt: "Step 2 of 4: Identify the Maneuvering Status:"
-        },
-        {
-            type: 'seen_from',
-            correctText: card.seen_from,
-            prompt: "Step 3 of 4: Identify the aspect (seen from):"
-        },
-        {
-            type: 'day_signal',
-            correctText: isDay ? card.lights_displayed : card.day_signal,
-            prompt: isDay ? "Step 4 of 4: Identify the Lights Displayed at Night:" : "Step 4 of 4: Identify the Day Signal displayed:"
-        }
-    ];
-
-    // Configure static view options (images, labels, badges)
-    if (item.type === 'night') {
+    } else if (type === 'flags') {
+        quizQuestionImg.src = `images/flags/flag_an_${parseInt(item.cardId) - 1}.gif`;
+        quizQuestionImg.alt = `Quiz Flag #${item.cardId}`;
+        quizCardNumberLabel.textContent = `Code Flag #${item.cardId}`;
+        quizQuestionTypeBadge.textContent = 'Code Flag';
+        quizQuestionTypeBadge.className = 'badge badge-teal';
+    } else if (type === 'day') {
+        quizQuestionImg.src = `images/day/DayImage${item.cardId}.gif`;
+        quizQuestionImg.alt = `Quiz Day Signal Card #${item.cardId}`;
+        quizCardNumberLabel.textContent = `Day Signal #${item.cardId}`;
+        quizQuestionTypeBadge.textContent = 'Day Signal';
+        quizQuestionTypeBadge.className = 'badge';
+    } else {
         quizQuestionImg.src = `images/night/NightSignal${item.cardId}.gif`;
         quizQuestionImg.alt = `Quiz Night Signal Card #${item.cardId}`;
         quizCardNumberLabel.textContent = `Night Signal #${item.cardId}`;
         quizQuestionTypeBadge.textContent = 'Night Signal';
         quizQuestionTypeBadge.className = 'badge badge-teal';
-    } else {
-        quizQuestionImg.src = `images/day/DayImage${item.cardId}.gif`;
-        quizQuestionImg.alt = `Quiz Day Signal Card #${item.cardId}`;
-        quizCardNumberLabel.textContent = `Day Signal #${item.cardId}`;
-        quizQuestionTypeBadge.textContent = 'Day Shape';
-        quizQuestionTypeBadge.className = 'badge';
     }
 
     quizQuestionImg.onerror = null;
     quizQuestionImg.onerror = function() {
-        this.onerror = null; // Prevent infinite loops
-        this.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="180" viewBox="0 0 284 180"><rect width="100%" height="100%" fill="%23111"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="%23555" font-family="sans-serif" font-size="14">Image Missing</text></svg>';
+        this.onerror = null;
+        this.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="180" viewBox="0 0 284 180"><rect width="100%" height="100%" fill="%23111"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="%23555" font-family="sans-serif" font-size="14">Signal Image</text></svg>';
     };
 
-    // Load first step
-    loadQuizStep();
-}
+    quizPromptText.textContent = "Identify the correct aspect / meaning of this signal:";
 
-function loadQuizStep() {
-    quizOptionsContainer.innerHTML = '';
-    
-    if (quizStepsList.length === 0 || quizCurrentStep > quizStepsList.length) return;
-    
-    const step = quizStepsList[quizCurrentStep - 1];
-    quizPromptText.textContent = step.prompt;
-    
-    // Generate options based on type
-    let options = [step.correctText];
-    
-    if (step.type === 'type_of_vessel') {
-        const distractors = vesselTypesList.filter(v => v !== step.correctText);
-        shuffleArray(distractors);
-        options.push(...distractors.slice(0, 3));
-    } else if (step.type === 'maneuvering_status') {
-        const distractors = maneuveringStatusesList.filter(m => m !== step.correctText);
-        shuffleArray(distractors);
-        options.push(...distractors.slice(0, 3));
-    } else if (step.type === 'seen_from') {
-        const distractors = seenFromList.filter(s => s !== step.correctText);
-        shuffleArray(distractors);
-        options.push(...distractors.slice(0, 3));
-    } else if (step.type === 'day_signal') {
-        const item = currentQueue[currentIndex];
-        const isDay = item.type === 'day';
-        const targetDb = isDay ? cardsData.day : cardsData.night;
-        const allCardIds = Object.keys(targetDb);
-        // Distractors are other cards' day signals or lights displayed
-        const distractors = allCardIds
-            .map(id => isDay ? targetDb[id].lights_displayed : targetDb[id].day_signal)
-            .filter(d => d && d !== step.correctText && d.trim() !== "");
-        const uniqueDistractors = [...new Set(distractors)];
-        shuffleArray(uniqueDistractors);
-        options.push(...uniqueDistractors.slice(0, 3));
+    // Correct text
+    const correctText = card.identification || card.title || `Signal #${item.cardId}`;
+
+    // Collect distractors from other cards in the same category
+    const catDb = cardsData[type] || {};
+    const allIds = Object.keys(catDb).filter(id => id !== item.cardId);
+    shuffleArray(allIds);
+
+    const distractors = [];
+    for (let id of allIds) {
+        const dText = catDb[id].identification || catDb[id].title;
+        if (dText && dText !== correctText && !distractors.includes(dText)) {
+            distractors.push(dText);
+        }
+        if (distractors.length >= 3) break;
     }
-    
-    // Fill if somehow less than 4 options
+
+    const options = [correctText, ...distractors];
     while (options.length < 4) {
-        options.push(`Distractor option placeholder ${options.length + 1}`);
+        options.push(`Alternative signal option ${options.length + 1}`);
     }
-    
-    // Shuffle combined options list
     shuffleArray(options);
-    
-    // Render option buttons
+
     const labels = ['A', 'B', 'C', 'D'];
     options.forEach((optText, idx) => {
         const btn = document.createElement('button');
@@ -697,107 +613,47 @@ function loadQuizStep() {
             <span class="option-text">${optText}</span>
         `;
         
-        btn.addEventListener('click', () => handleQuizStepAnswer(btn, optText, step.correctText));
+        btn.addEventListener('click', () => handleQuizAnswer(btn, optText, correctText, card));
         quizOptionsContainer.appendChild(btn);
     });
 }
 
-function handleQuizStepAnswer(selectedBtn, selectedText, correctAnswer) {
+function handleQuizAnswer(selectedBtn, selectedText, correctAnswer, card) {
     const buttons = quizOptionsContainer.querySelectorAll('.option-btn');
     buttons.forEach(btn => btn.disabled = true);
-    
+
     const isCorrect = selectedText === correctAnswer;
-    const item = currentQueue[currentIndex];
-    
+
     if (isCorrect) {
         selectedBtn.classList.add('correct');
-        
-        // If there's another step, transition after 800ms delay
-        if (quizCurrentStep < quizStepsList.length) {
-            setTimeout(() => {
-                quizCurrentStep++;
-                loadQuizStep();
-            }, 800);
-        } else {
-            // Last step correct, and card hasn't failed in previous steps
-            if (!quizCardFailed) {
-                quizScore++;
-                quizAnswers.push({
-                    cardId: item.cardId,
-                    type: item.type,
-                    correct: true
-                });
-                feedbackTitle.textContent = "Correct! Card Identified";
-                feedbackIcon.className = "fa-solid fa-circle-check";
-                quizFeedbackPanel.className = "feedback-panel correct-theme";
-            } else {
-                feedbackTitle.textContent = "Session review";
-            }
-            showQuizFeedback();
-        }
+        quizScore++;
+        feedbackIcon.className = 'fa-solid fa-circle-check text-success';
+        feedbackTitle.textContent = 'Correct!';
+        feedbackTitle.style.color = '#10b981';
     } else {
-        // Failed this step
         selectedBtn.classList.add('incorrect');
         quizCardFailed = true;
-        
+        missedCards.push(currentQueue[currentIndex].cardId);
+        feedbackIcon.className = 'fa-solid fa-circle-xmark text-danger';
+        feedbackTitle.textContent = 'Incorrect!';
+        feedbackTitle.style.color = '#ef4444';
+
         // Highlight correct button
         buttons.forEach(btn => {
-            const btnText = btn.querySelector('.option-text').textContent;
-            if (btnText === correctAnswer) {
+            const txt = btn.querySelector('.option-text').textContent;
+            if (txt === correctAnswer) {
                 btn.classList.add('correct');
             }
         });
-        
-        // Record failure
-        quizAnswers.push({
-            cardId: item.cardId,
-            type: item.type,
-            correct: false
-        });
-        
-        const missedKey = `${item.type}_${item.cardId}`;
-        if (!missedCards.some(m => m.key === missedKey)) {
-            missedCards.push({ cardId: item.cardId, type: item.type, key: missedKey });
-        }
-        
-        // Stop steps and immediately show feedback card after 1000ms delay
-        setTimeout(() => {
-            feedbackTitle.textContent = `Incorrect on Step ${quizCurrentStep}!`;
-            feedbackIcon.className = "fa-solid fa-circle-xmark";
-            quizFeedbackPanel.className = "feedback-panel incorrect-theme";
-            showQuizFeedback();
-        }, 1000);
     }
-}
 
-function showQuizFeedback() {
-    const item = currentQueue[currentIndex];
-    const card = cardsData[item.type][item.cardId];
-    const isDay = item.type === 'day';
-    
-    // Ensure details grid is visible for COLREGs
-    quizFeedbackDetailsGrid.classList.remove('hidden');
-    
-    // Fill detailed feedback fields
-    feedbackDescIdent.textContent = card.identification || '-';
+    // Populate feedback details
+    feedbackDescIdent.textContent = card.identification || card.title || '-';
     feedbackDescAction.textContent = card.action || '-';
-    feedbackDescDay.textContent = isDay ? (card.lights_displayed || '-') : (card.day_signal || '-');
+    feedbackDescDay.textContent = card.day_signal || card.lights_displayed || '-';
     feedbackDescFog.textContent = card.fog_signal || '-';
-    
-    // Update label in feedback panel
-    const feedbackDayLabel = feedbackDescDay.previousElementSibling;
-    if (feedbackDayLabel) {
-        feedbackDayLabel.textContent = isDay ? 'Lights Displayed:' : 'Day Shape:';
-    }
-    
+
     quizFeedbackPanel.classList.remove('hidden');
-    
-    // Change button text on final question
-    if (currentIndex === currentQueue.length - 1) {
-        btnQuizContinue.innerHTML = `Finish & Score <i class="fa-solid fa-flag-checkered"></i>`;
-    } else {
-        btnQuizContinue.innerHTML = `Continue <i class="fa-solid fa-arrow-right"></i>`;
-    }
 }
 
 function loadNextQuizQuestion() {
@@ -1080,6 +936,7 @@ function loadSessionState() {
 }
 
 function updatePdfLinks() {
+    try {
     const pdfLinkStartup = document.getElementById('pdf-link-startup');
     const pdfLinkMain = document.getElementById('pdf-link-main');
     
@@ -1098,4 +955,5 @@ function updatePdfLinks() {
     
     if (pdfLinkStartup) pdfLinkStartup.innerHTML = linkHtml;
     if (pdfLinkMain) pdfLinkMain.innerHTML = linkHtml;
+    } catch (e) { console.warn('PDF link update notice:', e); }
 }
