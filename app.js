@@ -236,7 +236,8 @@ function shuffleArray(array) {
 // Initialize Queue and Start the Session
 function startSession() {
     // Collect settings
-    trainerOrder = document.querySelector('input[name="trainer-order"]:checked').value;
+    const trainerOrderEl = document.querySelector('input[name="trainer-order"]:checked');
+    trainerOrder = trainerOrderEl ? trainerOrderEl.value : 'direct';
     quizIncludeDay = quizToggleDay.checked;
     quizQuestionCount = quizQuestionCountSelect.value;
 
@@ -463,7 +464,7 @@ function loadTrainerCard() {
         trainerInfoFog.textContent = card.fog_signal || 'No fog signal.';
     } else {
         // Night signals
-        trainerImg.src = `images/night/NightSignal${item.cardId}.gif`;
+        trainerImg.src = `images/night/nightsignal${item.cardId}.gif`;
         trainerImg.alt = `COLREGs Night Signal Card #${item.cardId}`;
         trainerCardLabel.textContent = `Night Signal #${item.cardId}`;
         trainerBackTitle.textContent = `Signal Reference Details (Night Card #${item.cardId})`;
@@ -492,7 +493,8 @@ function loadTrainerCard() {
         this.onerror = null; // Prevent infinite loops
         this.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="284" height="180" viewBox="0 0 284 180"><rect width="100%" height="100%" fill="%23111"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="%23555" font-family="sans-serif" font-size="14">Image Missing</text></svg>';
     };
-    if (isIala) {
+    const isIala = type === 'iala';
+    if (isIala && trainerBackImg) {
         trainerBackImg.onerror = null;
         trainerBackImg.onerror = function() {
             this.onerror = null; // Prevent infinite loops
@@ -563,7 +565,7 @@ function loadQuizQuestion() {
         quizQuestionTypeBadge.textContent = 'Day Signal';
         quizQuestionTypeBadge.className = 'badge';
     } else {
-        quizQuestionImg.src = `images/night/NightSignal${item.cardId}.gif`;
+        quizQuestionImg.src = `images/night/nightsignal${item.cardId}.gif`;
         quizQuestionImg.alt = `Quiz Night Signal Card #${item.cardId}`;
         quizCardNumberLabel.textContent = `Night Signal #${item.cardId}`;
         quizQuestionTypeBadge.textContent = 'Night Signal';
@@ -709,7 +711,7 @@ function showResults() {
                     identText = `Buoyage shape and answer reference`;
                 } else {
                     const card = cardsData[m.type][m.cardId];
-                    imgSrc = m.type === 'day' ? `images/day/DayImage${m.cardId}.gif` : `images/night/NightSignal${m.cardId}.gif`;
+                    imgSrc = m.type === 'day' ? `images/day/DayImage${m.cardId}.gif` : `images/night/nightsignal${m.cardId}.gif`;
                     titleText = `${m.type === 'day' ? 'Day' : 'Night'} Signal #${m.cardId}`;
                     identText = card ? card.identification : '';
                 }
