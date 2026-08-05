@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLREGs & IALA Signals - Quiz & Trainer</title>
+    <meta name="description" content="A premium interactive study app for maritime COLREGs day/night signals and IALA buoyage, including training flashcards and dynamic quizzes.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for beautiful icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="app.css?v=202605282132">
+</head>
+<body>
+    <!-- Background elements for depth -->
+    <div class="stars-bg"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Main Container -->
+    <main id="app-container" class="app-container hidden">
+        <!-- Top Navigation Header -->
+        <header class="app-header">
+            <div class="logo">
+                <i class="fa-solid fa-anchor logo-icon"></i>
+                <h1 class="logo-title">International Regulations for the Prevention of Collision at Sea</h1>
+            </div>
+            <div class="header-stats">
+                <span id="session-mode-badge" class="badge">Quiz Mode</span>
+                <button id="btn-home" class="btn-icon-text text-btn" title="Back to menu">
+                    <i class="fa-solid fa-house"></i> <span>Menu</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Progress Tracker Bar -->
+        <div class="progress-container">
+            <div class="progress-bar-track">
+                <div id="progress-bar-fill" class="progress-bar-fill" style="width: 0%"></div>
+            </div>
+            <div class="progress-text-row">
+                <span id="progress-text">Card 1 of 225</span>
+                <span id="progress-percent">0% Completed</span>
+            </div>
+        </div>
+
+        <!-- Dynamic Main Content Area -->
+        <section class="content-section">
+            
+            <!-- Trainer Section -->
+            <div id="trainer-view" class="view hidden">
+                <div class="flashcard-container">
+                    <div id="flashcard" class="flashcard">
+                        <!-- Front of Card: Image -->
+                        <div class="card-side card-front">
+                            <div class="card-image-wrapper">
+                                <img id="trainer-img" class="signal-img" src="" alt="Signal lights display">
+                            </div>
+                            <div class="card-label-row">
+                                <span id="trainer-card-label" class="card-id-label">Night Signal #1</span>
+                                <span class="card-hint-text"><i class="fa-solid fa-rotate"></i> Hover or Click to Flip</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Back of Card: Answer Text -->
+                        <div class="card-side card-back">
+                            <div id="trainer-back-scroll" class="card-back-scroll">
+                                <h3 id="trainer-back-title" class="card-back-title">Power Driven Vessel</h3>
+                                
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <div class="info-header">
+                                            <i class="fa-solid fa-circle-info"></i>
+                                            <span>Identification / Aspect</span>
+                                        </div>
+                                        <p id="trainer-info-ident" class="info-content">Vessel information here...</p>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="info-header">
+                                            <i class="fa-solid fa-compass"></i>
+                                            <span>Action to be Taken</span>
+                                        </div>
+                                        <p id="trainer-info-action" class="info-content">Action details here...</p>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="info-header">
+                                            <i class="fa-solid fa-sun"></i>
+                                            <span>Day Signal</span>
+                                        </div>
+                                        <p id="trainer-info-day" class="info-content">Day shapes here...</p>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="info-header">
+                                            <i class="fa-solid fa-volume-high"></i>
+                                            <span>Sound Signal in Fog</span>
+                                        </div>
+                                        <p id="trainer-info-fog" class="info-content">Sound signals here...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Image for IALA back -->
+                            <div id="trainer-back-image-wrapper" class="card-image-wrapper hidden">
+                                <img id="trainer-back-img" class="signal-img" src="" alt="Signal explanation display">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer Action Controls -->
+                <div class="controls-row">
+                    <button id="btn-trainer-prev" class="btn btn-secondary">
+                        <i class="fa-solid fa-arrow-left"></i> Previous
+                    </button>
+                    <button id="btn-trainer-flip" class="btn btn-accent">
+                        <i class="fa-solid fa-rotate"></i> Flip Card
+                    </button>
+
+                    <button id="btn-trainer-next" class="btn btn-primary">
+                        Next <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Quiz Section -->
+            <div id="quiz-view" class="view hidden">
+                <div class="quiz-grid">
+                    <!-- Left: Question / Image -->
+                    <div class="quiz-question-side">
+                        <div class="card-image-wrapper quiz-image-wrapper">
+                            <img id="quiz-question-img" class="signal-img" src="" alt="Question Signal">
+                        </div>
+                        <div class="quiz-meta-row">
+                            <span id="quiz-card-number-label" class="card-id-label">Night Signal #15</span>
+                            <span id="quiz-question-type-badge" class="badge badge-teal">Night Signal</span>
+
+                        </div>
+                    </div>
+
+                    <!-- Right: MCQ Options -->
+                    <div class="quiz-options-side">
+                        <div class="quiz-prompt-header">
+                            <h2 id="quiz-prompt-text">Identify this vessel's aspect:</h2>
+                        </div>
+                        
+                        <div class="options-container" id="quiz-options-container">
+                            <!-- Dynamically generated buttons go here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz Answer / Feedback Panel (Slide in after select) -->
+                <div id="quiz-feedback-panel" class="feedback-panel hidden">
+                    <div class="feedback-content">
+                        <div class="feedback-status">
+                            <i id="feedback-icon" class="fa-solid"></i>
+                            <span id="feedback-title">Correct!</span>
+                        </div>
+                        
+                        <div id="quiz-feedback-details-grid" class="feedback-details-grid">
+                            <div class="detail-box">
+                                <strong>Vessel Aspect:</strong>
+                                <span id="feedback-desc-ident">-</span>
+                            </div>
+                            <div class="detail-box">
+                                <strong>Action:</strong>
+                                <span id="feedback-desc-action">-</span>
+                            </div>
+                            <div class="detail-box">
+                                <strong>Day Shape:</strong>
+                                <span id="feedback-desc-day">-</span>
+                            </div>
+                            <div class="detail-box">
+                                <strong>Fog Signal:</strong>
+                                <span id="feedback-desc-fog">-</span>
+                            </div>
+                        </div>
+
+                        <div class="feedback-actions">
+                            <button id="btn-quiz-continue" class="btn btn-primary">
+                                Continue <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Summary View -->
+            <div id="results-view" class="view hidden">
+                <div class="results-card glass-panel">
+                    <div class="results-header">
+                        <i class="fa-solid fa-trophy trophy-icon"></i>
+                        <h2>Session Completed!</h2>
+                    </div>
+
+                    <div class="results-stats-grid">
+                        <div class="stat-circle-container">
+                            <div class="circular-progress">
+                                <span id="results-score-percent">80%</span>
+                            </div>
+                            <span class="stat-circle-label">Overall Accuracy</span>
+                        </div>
+
+                        <div class="stat-details">
+                            <div class="stat-row">
+                                <span class="label">Total Answered</span>
+                                <span id="results-total" class="value">20</span>
+                            </div>
+                            <div class="stat-row text-success">
+                                <span class="label">Correct Answers</span>
+                                <span id="results-correct" class="value">16</span>
+                            </div>
+                            <div class="stat-row text-danger">
+                                <span class="label">Incorrect Answers</span>
+                                <span id="results-incorrect" class="value">4</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="label">Mode Played</span>
+                                <span id="results-mode-played" class="value">Quiz Mode</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="results-review-section" class="results-review-section hidden">
+                        <h3>Vessels to Review</h3>
+                        <p class="subtitle">Here are the signals you missed. Review their aspects below:</p>
+                        <div class="review-cards-list" id="results-review-list">
+                            <!-- Dynamic list of missed items -->
+                        </div>
+                    </div>
+
+                    <div class="results-actions">
+                        <button id="btn-results-retry" class="btn btn-primary">
+                            <i class="fa-solid fa-rotate-right"></i> Try Again
+                        </button>
+                        <button id="btn-results-home" class="btn btn-secondary">
+                            <i class="fa-solid fa-house"></i> Main Menu
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <!-- Disclaimer Footer -->
+        <footer class="disclaimer-text">
+            <p>Extracted from Bandharkar ROR Cards, Generated for Educational purpose only as cards available, Errors might be present, Do analyse each for yourself for confirmation.</p>
+            <p class="footnote-contact">If errors are found, please give a shout at <a href="mailto:brahmajivv86@protonmail.com">brahmajivv86@protonmail.com</a>. I will try to correct them when ashore to help others. Thanks!</p>
+            <div id="pdf-link-main" class="pdf-link-container"></div>
+        </footer>
+    </main>
+
+    <!-- Overlay Startup Menu Modal -->
+    <div id="startup-modal" class="modal-overlay">
+        <div class="modal-box glass-panel animated-entrance">
+            <div class="modal-header">
+                <div class="ship-icon-container">
+                    <i class="fa-solid fa-ship ship-pulsing"></i>
+                </div>
+                <h2>International Regulations for the Prevention of Collision at Sea Trainer</h2>
+                <p class="subtitle">Master Day & Night Collision Regulations (COLREGs)</p>
+            </div>
+
+            <div class="settings-form">
+                <!-- Select Category -->
+                <div class="form-group">
+                    <label class="section-label">Select Category</label>
+                    <div class="toggle-buttons-group">
+                        <button type="button" id="btn-cat-night" class="toggle-btn active">
+                            <i class="fa-solid fa-moon"></i>
+                            <div>
+                                <strong>Night Signals</strong>
+                                <span>Night Lights and Collision Regulation Signals (1–225).</span>
+                            </div>
+                        </button>
+                        <button type="button" id="btn-cat-day" class="toggle-btn">
+                            <i class="fa-solid fa-sun"></i>
+                            <div>
+                                <strong>Day Signals</strong>
+                                <span>Day Shapes and Collision Regulation Signals (1–30).</span>
+                            </div>
+                        </button>
+                        <button type="button" id="btn-cat-iala" class="toggle-btn">
+                            <i class="fa-solid fa-circle-nodes"></i>
+                            <div>
+                                <strong>IALA Buoyage System</strong>
+                                <span>Lateral, Cardinal, Safe Water, and Special Buoys (1–40).</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Choose Mode -->
+                <div class="form-group">
+                    <label class="section-label">Select Learning Mode</label>
+                    <div class="toggle-buttons-group">
+                        <button type="button" id="btn-mode-trainer" class="toggle-btn active">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <div>
+                                <strong>Trainer Mode</strong>
+                                <span>Interactive flashcards with visual aids.</span>
+                            </div>
+                        </button>
+                        <button type="button" id="btn-mode-quiz" class="toggle-btn">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <div>
+                                <strong>Quiz Mode</strong>
+                                <span>Dynamic multiple choice tests.</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Trainer Specific Options -->
+                <div id="group-trainer-options" class="form-group slide-in">
+                    <label class="section-label">Trainer Navigation</label>
+                    <div class="radio-buttons-group">
+                        <label class="radio-card">
+                            <input type="radio" name="trainer-order" value="direct" checked>
+                            <div class="radio-card-content">
+                                <i class="fa-solid fa-arrow-down-1-9"></i>
+                                <span>Sequential Order</span>
+                            </div>
+                        </label>
+                        <label class="radio-card">
+                            <input type="radio" name="trainer-order" value="shuffle">
+                            <div class="radio-card-content">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <span>Shuffled Order</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Quiz Specific Options -->
+                <div id="group-quiz-options" class="form-group hidden slide-in">
+                    <div class="option-row" style="display: none !important;">
+                        <div class="option-label-col">
+                            <strong>Include Day Signals</strong>
+                            <span>Include cards 1–30's day shapes inside the quiz pool.</span>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" id="quiz-toggle-day" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                    <div class="option-row" style="margin-top: 0rem;">
+                        <div class="option-label-col">
+                            <strong>Number of Questions</strong>
+                            <span>Select the length of your evaluation.</span>
+                        </div>
+                        <select id="quiz-question-count" class="select-dropdown">
+                            <option value="10">10 Questions</option>
+                            <option value="20" selected>20 Questions</option>
+                            <option value="50">50 Questions</option>
+                            <option value="all">Full Deck (All Cards)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" id="btn-start-session" class="btn btn-accent btn-large">
+                    Start Learning <i class="fa-solid fa-circle-play"></i>
+                </button>
+            </div>
+            
+            <!-- Disclaimer Footer -->
+            <footer class="disclaimer-text">
+                <p>Extracted from Bandharkar ROR Cards, Generated for Educational purpose only as cards available, Errors might be present, Do analyse each for yourself for confirmation.</p>
+                <p class="footnote-contact">If errors are found, please give a shout at <a href="mailto:brahmajivv86@protonmail.com">brahmajivv86@protonmail.com</a>. I will try to correct them when ashore to help others. Thanks!</p>
+                <div id="pdf-link-startup" class="pdf-link-container"></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="app.js?v=202605282132"></script>
+</body>
+</html>

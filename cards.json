@@ -1,0 +1,2847 @@
+{
+  "day": {
+    "1": {
+      "identification": "a) P.D. v/l towing, tow length > 200 m, underway, seen from stbd. side. b) v/l or object towed, tow length > 200 m, seen from stbd. side.",
+      "action": "a) Maintain course and speed. b) Two short blasts, a/c to port and pass round stern of last v/l or object towed.",
+      "lights_displayed": "a)(i) Masthead lts ford and aft. (ii) Side lts and stern lt. (iii) Length < 50 m - aft masthead lt not compulsory. (iv) Two addl masthead lts in vert line with ford or aft masthead lt. (v) Yellow towing lt above stern lt. b) Side lts and stern lt or adequately illuminated.",
+      "fog_signal": "a) One prolonged and two short blasts. b) Last v/l towed, if manned - one prolonged and three short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "2": {
+      "identification": "a) P.D. v/l towing, tow length > 200 m, underway, seen from port side. b) v/l or object towed, tow length > 200 m, seen from port side.",
+      "action": "One short blast, a/c to stbd. and pass round stern of last v/l or object towed.",
+      "lights_displayed": "a)(i) Masthead lts ford and aft. (ii) Side lts and stern lt. (iii) Length < 50 m - aft masthead lt not compulsory. (iv) Two addl masthead lts in vert line with ford or aft masthead lt. (v) Yellow towing lt above stern lt. b) Side lts and stern lt or adequately illuminated.",
+      "fog_signal": "a) One prolonged and two short blasts. b) Last v/l towed, if manned - one prolonged and three short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "3": {
+      "identification": "Last of inconspicuous, partly submerged v/l or object towed, tow length ≤ 200 m seen from stbd. side.",
+      "action": "Two short blasts, a/c to port.",
+      "lights_displayed": "a) Breadth < 25 m - all round white lts ford and aft. b) Breadth ≥ 25 m - Addl - all round white lts at extremeties of breadth. c) Length > 100 m - Addl - all round white lts in between above lts at horz intervals ≤ 100 m. d) Dracones - Ford lt not compulsory.",
+      "fog_signal": "Nil",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "4": {
+      "identification": "Last of inconspicuous, partly submerged v/l or object towed, tow length > 200 m.",
+      "action": "a/c away from tug giving appropriate signal.",
+      "lights_displayed": "a) Breadth < 25 m - all round white lts ford and aft. b) Breadth ≥ 25 m - Addl - all round white lts at extremeties of breadth. c) Length > 100 m - Addl - all round white lts in between above lts at horz intervals ≤ 100 m. d) Dracones - Ford lt not compulsory.",
+      "fog_signal": "Nil",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "5": {
+      "identification": "S.V. underway, also propelled by machinery, seen from stbd. side.",
+      "action": "Maintain course and speed.",
+      "lights_displayed": "a) Masthead lts ford and aft. b) Side lts and stern lt. c) Length < 50 m - aft masthead lt not compulsory.",
+      "fog_signal": "a) Making way - one prolonged blast b) Stopped - two prolonged blasts with two secs. interval in between.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "6": {
+      "identification": "S.V. underway, also propelled by machinery, seen from port side.",
+      "action": "One short blast, a/c to stbd.",
+      "lights_displayed": "a) Masthead lts ford and aft. b) Side lts and stern lt. c) Length < 50 m - aft masthead lt not compulsory.",
+      "fog_signal": "a) Making way - one prolonged blast b) Stopped - two prolonged blasts with two secs. interval in between.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "7": {
+      "identification": "a) v/l fishing with nets or lines extending ≤ 150 m horizontally from v/l, underway or at anchor, seen from stbd. side. b) Trawler, underway or at anchor, seen from stbd side.",
+      "action": "Two short blasts, a/c to port.",
+      "lights_displayed": "a)(i) All round red over white lts in vert line. a)(ii) Making way - side lts and stern lt. b)(i) All round green over white lts in vert line. b)(ii) Masthead lt abaft of and higher than green lt. b)(iii) Making way - side lts and stern lt. b)(iv) Length < 50 m - masthead lt is not compulsory.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "9": {
+      "identification": "v/l fishing with nets or lines extending > 150 m horizontally from v/l, underway or at anchor, seen end on from ahead or astern.",
+      "action": "Two short blasts, a/c to port away from gear.",
+      "lights_displayed": "a) All round red over white lts in vert line. b) Making way - side lts and stern lt. c) All round white lt in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "11": {
+      "identification": "v/l NUC, underway, seen from stbd. side.",
+      "action": "Two short blasts, a/c to port.",
+      "lights_displayed": "a) Two all round red lts in vert line. b) Making way - side lts and stern lt.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "12": {
+      "identification": "v/l RAM, except mine clearance v/l, underway, seen from stbd. side.",
+      "action": "Two short blasts, a/c to port.",
+      "lights_displayed": "a) All round red, white and red lts in vert line. \r\nb) Making way - masthead lts ford and aft, side lts and stern lt. \r\nc) Length < 50 m - aft masthead lt not compulsory.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "13": {
+      "identification": "v/l RAM, except mine clearance v/l, at anchor, seen from port side.",
+      "action": "One short blast, a/c to stbd.",
+      "lights_displayed": "a) All round red, white and red lts in vert line. b) All round white lts ford and at stern. c) Working lts to illuminate deck. d) Length < 100 m - working lts not compulsory. e) Length < 50 m - working lts and white lt at stern not compulsory, and ford white lt placed where it can best be seen.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "14": {
+      "identification": "P.D. v/l towing, RAM, tow length > 200 m, underway, seen from stbd. side.",
+      "action": "Two short blasts, a/c to port and pass round stern of last v/l or object towed.",
+      "lights_displayed": "a) Masthead lts ford and aft. b) Side lts and stern lt. c) Length < 50 m - aft masthead lt not compulsory. d) Two addl masthead lts in vert line with ford or aft masthead lts. e) Yellow towing lt above stern lt. f) All round red, white and red lts in vert. line",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "15": {
+      "identification": "Dredger, RAM, underway or at anchor, seen end on from ahead or astern.",
+      "action": "Two short blasts, a/c to port towards safe side.",
+      "lights_displayed": "a) All round red, white and red lts in vert line. b) Two all round red lts in vert line on obstruction side. c) Two all round green lts in vert line on safe side. d) Making way - (i) Masthead lts ford and aft, side lts and stern lt. d)(ii) Length < 50 m - aft masthead lt not compulsory.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "16": {
+      "identification": "Small v/l engaged in diving operations, seen from stbd. side.",
+      "action": "Two short blasts, a/c to port.",
+      "lights_displayed": "All round red, white and red lts in vert line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "17": {
+      "identification": "v/l engaged in mine clearance operations, underway, seen end on from ahead or astern.",
+      "action": "One short blast, a/c to stbd. and pass > 1000 m clear of v/l.",
+      "lights_displayed": "a) Three all round green lts - one at foremast head and one at each end of fore yard. b) Masthead lts ford and aft, side lts and stern lt. c) Length < 50 m - aft masthead lt not compulsory.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "18": {
+      "identification": "v/l engaged in mine clearance operations, at anchor, seen from port side.",
+      "action": "One short blast, a/c to stbd. and pass > 1000 m clear of v/l.",
+      "lights_displayed": "a) Three all round green lts - one at foremast head and one at each end of fore yard. b) All round white lts ford and at stern. c) Working lts to illuminate deck. d) Length < 100 m - working lts not compulsory. e) Length < 50 m - working lts and white lt at stern not compulsory, and ford white lt placed where it can best be seen.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "19": {
+      "identification": "P.D. v/l constrained by draught, underway, seen from stbd. side.",
+      "action": "One short blast, a/c to stbd. and pass round her stern.",
+      "lights_displayed": "a) Three all round red lts in vert line. b) Masthead its ford and aft, side lts and stern lt. c) Length < 50 m - aft masthead lt not compulsory.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "20": {
+      "identification": "Pilot v/l underway, seen from stbd. side.",
+      "action": "Maintain course and speed.",
+      "lights_displayed": "a) All round white over red lts in vert line at or near masthead. b) Side lts and stern lt.",
+      "fog_signal": "a) Making way - one prolonged blast. b) Stopped - two prolonged blasts with two secs. interval in between. c) Optional - four short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "21": {
+      "identification": "Pilot v/l underway, seen from port side.",
+      "action": "One short blast, a/c to stbd.",
+      "lights_displayed": "a) All round white over red lts in vert line at or near masthead. b) Side lts and stern lt.",
+      "fog_signal": "a) Making way - one prolonged blast. b) Stopped - two prolonged blasts with two secs. interval in between. c) Optional - four short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "22": {
+      "identification": "Pilot v/l at anchor, seen from stbd. side.",
+      "action": "Two short blasts, a/c to port.",
+      "lights_displayed": "a) All round white over red lts in vert line at or near masthead. b) All round white lts ford and at stern. c) Working lts to illuminate deck. d) Length < 100 m - working lts not compulsory. e) Length < 50 m - working lts and white lt at stern not compulsory, and ford white lt placed where it can best be seen.",
+      "fog_signal": "a) Length < 100 m - rapid ringing of bell for 5 secs. b) Length ≥ 100 m - rapid ringing of bell ford for five secs and rapid ringing of gong aft for five secs. c) Optional - four short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "23": {
+      "identification": "v/l at anchor, seen from port side.",
+      "action": "One short blast, a/c to stbd.",
+      "lights_displayed": "a) All round white lts ford and at stern. b) Working lts to illuminate deck. c) Length < 100 m - working lts not compulsory. d) Length < 50 m - working lts and white lt at stern not compulsory, and ford white lt placed where it can best be seen.",
+      "fog_signal": "a) Length < 100 m - rapid ringing of bell for five secs. b) Length ≥ 100 m - rapid ringing of bell ford for five secs and rapid ringing of gong aft for five secs. c) Optional - one short, one prolonged and one short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "24": {
+      "identification": "v/l aground, seen from stbd. side.",
+      "action": "One short blast, a/c to stbd, reverse course and inform Master.",
+      "lights_displayed": "a) Two all round red lts in vert line. b) All round white lts ford and at stern. c) Length < 50 m - white light at stern not compulsory, and ford white Light placed where it can best be seen.",
+      "fog_signal": "a) Length < 100 m - rapid ringing of bell for five secs. b) Length ≥ 100 m - rapid ringing of bell ford for five secs and rapid ringing of gong aft for five secs. c) Three separate and distinct strokes on bell before and after ringing of bell. d) Optional - appropriate whistle signal (two short and one prolonged blasts).",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "25": {
+      "identification": "Trawler, underway, shooting nets, seen from stbd. side.",
+      "action": "Two short blasts, a/c to port.",
+      "lights_displayed": "a) All round green over white lts in vert line. b) Masthead lt abaft of and higher than green lt. c) Making way - side lts and stern lt. d) Length < 50 m - masthead light not compulsory. e) Two all round white lights in vertical line at lower level than green and white lights.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "26": {
+      "identification": "Trawler, underway or at anchor, hauling nets, seen from port side.",
+      "action": "One short blast, a/c to stbd.",
+      "lights_displayed": "a) All round green over white lts in vert line. b) Masthead light abaft of and higher than green light. c) Making way - side lts and stern lt. d) Length < 50 m. - masthead light not compulsory. e) All round white over red lights in vertical line at lower level than green and white lights.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "28": {
+      "identification": "Two trawlers engaged in pair trawling, underway, shooting nets, seen end on from ahead or astern.",
+      "action": "One short blast, a/c to stbd.",
+      "lights_displayed": "a) All round green over white lts in vert line. b) Masthead light abaft of and higher than green lt. c) Making way - side lts and stern light. d) Length < 50 m. - masthead light not compulsory. e)(i) Two all round white lts in vert line at lower level than green and white lts. e)(ii) Search lt directed forward and in direction of other trawler.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "29": {
+      "identification": "Two trawlers engaged in pair trawling, underway or at anchor, hauling nets, seen end on from ahead or astern.",
+      "action": "One short blast, a/c to stbd.",
+      "lights_displayed": "a) All round green over white lts in vert line. b) Masthead light abaft of and higher than green lt. c) Making way - side lts and stern lt. d) Length < 50 m. - masthead light not compulsory. e)(i) All round white over red lights in vertical line at lower level than green and white lights. e)(ii) Search light directed forward and in direction of other trawler.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    },
+    "30": {
+      "identification": "Two trawlers engaged in pair trawling, stopped or at anchor, nets fast on obstruction, seen end on from ahead or astern.",
+      "action": "One short blast, a/c to stbd. and pass well clear.",
+      "lights_displayed": "a) All round green over white lts in vert line. b) Masthead light abaft of and higher than green light. c) Length < 50 m - masthead lt not compulsory. d)(i) Two all round red lts in vert line at lower level than green and white lts. d)(ii) Search lt directed forward and in direction of other trawler.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Day Signal",
+      "maneuvering_status": "See details",
+      "seen_from": "See aspect"
+    }
+  },
+  "night": {
+    "1": {
+      "identification": "P. D. v/I less than 50 m underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Making way-One prolonged blast. Stopped-Two prolonged blasts with 2 secs interval in between.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "2": {
+      "identification": "P. D. v/I less than 50 m underway seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day Signal.",
+      "fog_signal": "Making way-One prolonged blast. Stopped-Two prolonged blasts with 2 secs interval in between.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "3": {
+      "identification": "P. D. v/I less than 50 m underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No Day Signal",
+      "fog_signal": "Making way-One prolonged blast. Stopped-Two prolonged blasts with 2 secs interval in between.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "4": {
+      "identification": "P. D. v/I seen end on- (a) probably 50 m. or more underway.(b) less than 50 m. towing or pushing underway, tow 200 m. or less",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "(a) Making way-One prolonged blast. Stopped -Two prolonged blasts with 2 secs interval in between.(b) One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "5": {
+      "identification": "P. D. v/I probably 50 m or more underway seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Making way-One prolonged blast. Stopped-Two prolonged blasts with 2 secs interval in between.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "6": {
+      "identification": "P. D. v/I probably 50 m or more underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Making way-One prolonged blasts. Stopped-Two prolonged blasts with 2 secs interval in between.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "7": {
+      "identification": "(a)P.D. v/l probably 50 m. or more but less than 100 m. at anchor, seen from ahead or astern. (b) P.D. v/l probably 50 m. or more underway seen end on, out of range of side lights. (c) P.D. v/l towing or pushing less than 50 m. underway, tow 200m. or less, out of range of side lights.",
+      "action": "(a) & (b) One short blast a/c to stbd. (c) As per side light when sighted.",
+      "day_signal": "(a) A ball in fore part. (b) & (c)  No day signal.",
+      "fog_signal": "As per possibility.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "8": {
+      "identification": "(a)P.D. v/l probably 50 m. or more but less than 100 m. at anchor, seen from port side.(b) P.D. v/l probably 50 m. or more underway seen from stbd side out of range of side lights.",
+      "action": "(a) One short blast a/c to stbd. (b) Maintain course and speed.",
+      "day_signal": "(a) A ball in fore part. (b) No day signal.",
+      "fog_signal": "(a) Rapid ringing of the bell for 5 secs. Addiditional- Short. prolonged and short blasts may be sounded. (b) Making way - One prolonged blast. Stopped-Two prolonged blasts with 2 secs interval in between.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "9": {
+      "identification": "(a) P.D. v/l or S.V. underway seen from astern. (b) P.D. v/l less than 50 m. underway out of range of side lights. (c) All-round light of : i) v/l less than 50 m. at anchor. ii) v/l under oars. iii) P.D. v/l less than 7 m., speed not exceeding 7 knots iv) P.D v/l less 12 m., out of range of side lights. v) Sailing v/l less than 7 m.",
+      "action": "(a) One short blast a/c to stbd. (b) As per side light when sighted. (c ) i), ii) & v)One short blast a/c to stbd. iii) Port bow - Maintain course and speed. Right ahead & stbd bow - One short blast a/c to stbd. iv) As per side light when sighted.",
+      "day_signal": "Anchored v/l - One ball in fore part. Others - No day signal.",
+      "fog_signal": "As per possibility.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "10": {
+      "identification": "Air-cushion v/l less than 50 m. in non-displacement mode underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged blast. (v/l assumed to be making way.)",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "11": {
+      "identification": "Air-cushion v/l less than 50 m. in non-displacement mode underway seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged blast. (v/l assumed to be making way.)",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "12": {
+      "identification": "Air-cushion v/l less than 50 m., in non-displacement mode underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged blast. (v/l assumed to be making way.)",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "13": {
+      "identification": "(a) Air-cushion v/l in non-displacement mode underway seen from astern. (b) Air-cushion v/l less than 12 m., in non-displacement mode underway out of range of side lights.",
+      "action": "(a) One short blast a/c to stbd. (b) As per side light when sighted.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged blast. (v/l assumed to be making way.)",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "14": {
+      "identification": "(a) Air-cushion v/l in non-displacement mode underway seen from astern. (b) Air-cushion v/l less than 12 m., in non-displacement mode underway out of range of side lights, seen from stbd. side.",
+      "action": "(a) One short blast a/c to stbd. (b) Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged blast. (v/l assumed to be making way.)",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "15": {
+      "identification": "(a) Air-cushion v/l in non-displacement mode underway seen from astern. (b) Air-cushion v/l less than 12 m., in non-displacement mode underway out of range of side lights, seen from port side.",
+      "action": "(a) Two short blasts a/c to port. (b) One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged blast. (v/l assumed to be making way.)",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "16": {
+      "identification": "(a) P.D. v/l less than 20 m. underway, seen  end on. (b) P.D. v/l less than 12 m. underway, masthead lt. displaced from centre line, seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Making way - One prolonged blast. Stopped - Two prolonged blasts with 2 secs. interval in between.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "17": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow 200 m. or less seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "18": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow 200 m. or less seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "19": {
+      "identification": "P.D. v/l  underway seen end on - a) less than 50m, tow exceeds 200m. (b) probably 50m or more, tow 200m or less",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "(a) One diamond.(b) No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "20": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "21": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less, seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "22": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "23": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "24": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow exceeds 200 m. seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "One diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "25": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow exceeds 200 m. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "26": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway, tow exceeds 200 m., seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "27": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m., seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "One diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "28": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m. seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "One diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "29": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "30": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "31": {
+      "identification": "P.D. v/l towing underway seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond if tow exceeds 200 m.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "32": {
+      "identification": "P.D. v/l towing less than 50 m. underway with tow 200 m. or less seen from stbd. side",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts.\r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "33": {
+      "identification": "P.D. v/l towing less than 50 m. underway with tow 200 m. or less seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts.\r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "34": {
+      "identification": "P.D. v/l towing less than 50 m. underway with tow exceeding 200 m. seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "One diamond each on towing and towed v/ls.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts.\r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "35": {
+      "identification": "P.D. v/l towing less than 50 m. underway with tow exceeding 200 m. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond each on towing and towed v/ls.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts.\r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "36": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow 200 m. or less seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts.\r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "37": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow 200 m. or less seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts.\r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "38": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow 200 m. or less seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts. \r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "39": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow 200 m. or less seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts. \r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "40": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow exceeding 200 m. seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "One diamond each on towing and towed v/ls.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts. \r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "41": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow exceeding 200 m. seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "One diamond each on towing and towed v/ls.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts.\r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "42": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow exceeding 200 m. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond each on towing and towed v/ls.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts. \r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "43": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway with tow exceeding 200 m. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "One diamond each on towing and towed v/ls.",
+      "fog_signal": "Towing v/l - One prolonged and two short blasts. \r\n Towed v/l - One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "44": {
+      "identification": "P.D. v/l pushing ahead less than 50 m. underway seen from stbd. side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "45": {
+      "identification": "P.D. v/l pushing ahead less than 50 m. underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "46": {
+      "identification": "P.D. v/l pushing ahead probably 50 m. or more underway seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "47": {
+      "identification": "P.D. v/l pushing ahead probably 50 m. or more underway seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "48": {
+      "identification": "P.D. v/l pushing ahead probably 50 m. or more underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "49": {
+      "identification": "P.D. v/l pushing ahead probably 50 m. or more underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "50": {
+      "identification": "P.D. v/l towing alongside less than 50 m. underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "51": {
+      "identification": "P.D. v/l towing alongside probably 50 m. or more underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "52": {
+      "identification": "Inconspicuous partly submerged v/l or object or their combination towed, breadth less than 25 m., length 100 m. or less.",
+      "action": "Action according to position of tug.",
+      "day_signal": "One diamond at or near aftermost extremity of last v/l or object. If tow exceeds 200 m., one additional diamond forward.",
+      "fog_signal": "No fog signal.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "54": {
+      "identification": "Inconspicuous, partly submerged v/l or object or their combination, towed, length 200 m. or less.",
+      "action": "Action according to position of tug.",
+      "day_signal": "One diamond at or near aftermost extremity of last v/l or object. If tow exceeds 200 m. one additonal diamond forward.",
+      "fog_signal": "No fog signal.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "55": {
+      "identification": "S.V. underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "56": {
+      "identification": "(a) S.V. underway seen from stbd side. (b) v/l being towed seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "(a) No day signal. (b) If length of tow exceeds 200 m. a diamond.",
+      "fog_signal": "(a) One prolonged and two short blasts. (b) One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "57": {
+      "identification": "(a) S.V. underway seen from port side. (b) v/l being towed seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "(a) No day signal. (b) If length of tow exceeds 200 m. a diamond.",
+      "fog_signal": "(a) One prolonged and two short blasts. (b) One prolonged and three short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "58": {
+      "identification": "S.V. less than 20 m. underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "59": {
+      "identification": "S.V. probably 20 m. or more underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "60": {
+      "identification": "S.V. probably 20 m. or more underway seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "61": {
+      "identification": "S.V. probably 20 m. or more underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "62": {
+      "identification": "S.V. probably 20 m. or more underway seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "63": {
+      "identification": "S.V. probably 20 m. or more underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "64": {
+      "identification": "S.V. probably 20 m. or more underway seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "65": {
+      "identification": "S.V. probably 20 m. or more underway seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "66": {
+      "identification": "S.V. probably 20 m. or more underway seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "No day signal.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "67": {
+      "identification": "Trawler less than 50 m. making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "68": {
+      "identification": "Trawler less than 50 m. making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "69": {
+      "identification": "Trawler less than 50 m. making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "70": {
+      "identification": "Trawler less than 50 m. making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "71": {
+      "identification": "Trawler less than 50 m. making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "72": {
+      "identification": "Trawler probably 50 m. or more making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "73": {
+      "identification": "Trawler probably 50 m. or more making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "74": {
+      "identification": "Trawler probably 50 m. or more making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "75": {
+      "identification": "Trawler making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "76": {
+      "identification": "Trawler making way seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "77": {
+      "identification": "Trawler making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "78": {
+      "identification": "Trawler underway but stopped or at anchor.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "79": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "80": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "81": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "82": {
+      "identification": "F.V. other than trawler making way, gear extending 150 m. or less, seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "83": {
+      "identification": "F.V. other than trawler making way, gear extending 150 m. or less, seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "84": {
+      "identification": "F.V. other than trawler making way, gear extending 150 m. or less, seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "85": {
+      "identification": "F.V. other than trawler making way, gear extending 150 m. or less, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "86": {
+      "identification": "F.V. other than trawler making way, gear extending 150 m. or less, seen from port side.",
+      "action": "One short blast a/c to stbd",
+      "day_signal": "Two cones with apexes together in vertical line",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "87": {
+      "identification": "F.V. other than trawler - (a) making way, gear extending 150 m. or less, seen from astern. (b) underway but stopped or at anchor, gear extending more than 150 m.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "(a) Two cones with apexes together in vertical line. (b) Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "88": {
+      "identification": "F.V. other than trawler - (a) making way, gear extending 150 m. or less, seen from astern. (b) underway but stopped or at anchor, gear extending more than 150 m.",
+      "action": "(a) Two short blasts a/c to port. (b) One short blast a/c to stbd.",
+      "day_signal": "(a) Two cones with apexes together in vertical line. (b) Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "89": {
+      "identification": "F.V. other than trawler - (a) making way, gear extending 150 m. or less, seen from astern. (b) underway but stopped or at anchor, gear extending more than 150 m.",
+      "action": "(a) One short blast a/c to stbd. (b) Two short blasts a/c to port.",
+      "day_signal": "(a) Two cones with apexes together in vertical line. (b) Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "90": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "91": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "92": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "93": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "94": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "95": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "96": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "97": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "98": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "99": {
+      "identification": "F.V. other than trawler making way, gear extending more than 150 m., seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "100": {
+      "identification": "F.V. other than trawler underway but stopped or at anchor, gear extending 150 m. or less.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "101": {
+      "identification": "Trawler less than 50 m. making way shooting nets seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "102": {
+      "identification": "Trawler less than 50 m. making way hauling nets seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "103": {
+      "identification": "Trawler underway but stopped or at anchor, hauling nets.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "104": {
+      "identification": "Trawler underway but stopped or at anchor, nets fast on an obstruction.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also Flag P",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "105": {
+      "identification": "Trawler less than 50 m. making way shooting nets seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "106": {
+      "identification": "Trawler less than 50 m. making way hauling nets seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "107": {
+      "identification": "Trawler less than 50 m. making way shooting nets seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "108": {
+      "identification": "Trawler less than 50 m. making way hauling nets seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "109": {
+      "identification": "Trawler probably 50 m. or more making way shooting nets seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "110": {
+      "identification": "Trawler probably 50 m. or more making way hauling nets seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "111": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, hauling nets, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "112": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, hauling nets, seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "113": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, nets fast on an obstruction, seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also Flag P",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "114": {
+      "identification": "Trawler probably 50 m. or more making way shooting nets seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "115": {
+      "identification": "Trawler probably 50 m. or more making way hauling nets seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "116": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, nets fast on an obstruction, seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also Flag P",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "117": {
+      "identification": "Trawler probably 50 m. or more making way shooting nets seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "118": {
+      "identification": "Trawler probably 50 m. or more making way hauling nets seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "119": {
+      "identification": "Trawler probably 50 m. or more underway but stopped or at anchor, nets fast on an obstruction, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also Flag P",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "120": {
+      "identification": "Trawler making way shooting nets seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "121": {
+      "identification": "Trawler making way hauling nets seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "122": {
+      "identification": "Trawler making way shooting nets seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "123": {
+      "identification": "Trawler making way hauling nets seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "124": {
+      "identification": "Trawler making way shooting nets seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag Z.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "125": {
+      "identification": "Trawler making way hauling nets seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also flag G.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "126": {
+      "identification": "Two v/ls each less than 50 m. pair trawling making way hauling nets seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Each v/l shows two cones with apexes together in vertical line. Also flags G & T.",
+      "fog_signal": "Each v/l sounds one prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "127": {
+      "identification": "Two v/ls each probably 50 m. or more pair trawling making way shooting nets, seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Each v/l shows two cones with apexes together in vertical line. Also flags Z & T.",
+      "fog_signal": "Each v/l sounds one prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "128": {
+      "identification": "Two v/ls each probably 50 m. or more pair trawling underway but stopped or at anchor, nets fast on an obstruction, seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Each vessel shows two cones with apexes together in vertical line. Also flag T and P.",
+      "fog_signal": "Each v/l sounds one prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "129": {
+      "identification": "Two v/ls pair trawling making way shooting nets seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Each v/l shows two cones with apexes together in vertical line. Also flags Z & T.",
+      "fog_signal": "Each v/l sounds one prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "130": {
+      "identification": "Two v/ls pair trawling underway but stopped or at anchor, nets fast on an obstruction.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Each v/l shows two cones with apexes together in vertical line. Also flag T and P.",
+      "fog_signal": "Each v/l sounds one prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "131": {
+      "identification": "F.V. other than trawler using purse seine gear extending 150 m. or less making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "132": {
+      "identification": "F.V. other than trawler using purse seine gear extending 150 m. or less making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "133": {
+      "identification": "F.V. other than trawler using purse seine gear extending 150 m. or less making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "134": {
+      "identification": "F.V. other than trawler using purse seine gear extending more than 150 m., making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "135": {
+      "identification": "F.V. other than trawler using purse seine gear extending more than 150 m., making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "136": {
+      "identification": "F.V. other than trawler using purse seine gear extending more than 150 m., making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "137": {
+      "identification": "F.V. other than trawler using purse seine gear extending 150 m. or less making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "138": {
+      "identification": "F.V. other than trawler using purse seine gear extending 150 m. or less making way seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "139": {
+      "identification": "F.V. other than trawler using purse seine gear extending 150 m. or less making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "140": {
+      "identification": "F.V. other than trawler using purse seine gear extending more than 150 m., making way seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "141": {
+      "identification": "F.V. other than trawler using purse seine gear extending more than 150 m., making way seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "142": {
+      "identification": "F.V. other than trawler using purse seine gear extending more than 150 m., making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "143": {
+      "identification": "F.V. other than trawler using purse seine gear extending 150 m. or less underway but stopped or at anchor.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "144": {
+      "identification": "F.V. other than trawler using purse seine gear extending more than 150 m. underway but stopped or at anchor.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two cones with apexes together in vertical line. Also a cone with apex upwards in direction of gear.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "145": {
+      "identification": "N.U.C. v/l making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two balls in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "146": {
+      "identification": "N.U.C. v/l making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two balls in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "147": {
+      "identification": "N.U.C. v/l making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Two balls in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "148": {
+      "identification": "N.U.C. v/l making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two balls in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "149": {
+      "identification": "N.U.C. v/l making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two balls in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "150": {
+      "identification": "(a) N.U.C. v/l making way seen from astern. (b) Aground v/l less than 50 m.",
+      "action": "(a) One short blast a/c to stbd. (b) One short blast a/c to stbd, reverse course and inform master.",
+      "day_signal": "(a) Two balls in vertical line. (b) Three balls in vertical line.",
+      "fog_signal": "(a) One prolonged and two short blasts. (b) Three strokes on bell before and after rapid ringing of bell for 5 secs. Also may sound two short and one prolonged blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "151": {
+      "identification": "(a) N.U.C. v/l making way seen from astern. (b) Aground v/l less than 50 m.",
+      "action": "(a) One short blast a/c to stbd. (b) One short blast a/c to stbd, reverse course and inform master.",
+      "day_signal": "(a) Two balls in vertical line. (b) Three balls in vertical line.",
+      "fog_signal": "(a) One prolonged and two short blasts. (b) Three strokes on bell before and after rapid ringing of bell for 5 secs. Also may sound two short and one prolonged blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "152": {
+      "identification": "(a) N.U.C. v/l making way seen from astern. (b) Aground v/l less than 50 m.",
+      "action": "(a) One short blasts a/c to stbd. (b) One short blast a/c to stbd, reverse course and inform master.",
+      "day_signal": "(a) Two balls in vertical line. (b) Three balls in vertical line.",
+      "fog_signal": "(a) One prolonged and two short blasts. (b) Three strokes on bell before and after rapid ringing of bell for 5 secs. Also may sound two short and one prolonged blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "153": {
+      "identification": "N.U.C. v/l underway but stopped.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Two balls in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "154": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction less than 50 m. making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "155": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction less than 50 m. making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "156": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction less than 50 m. making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "157": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction less than 50 m. making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "158": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction less than 50 m. making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "159": {
+      "identification": "(a) v/l R.A.M. or dredger / uwo without obstruction probably 50 m. or more making way, seen end on.(b) P.D. v/l towing less than 50 m, underway, tow 200 m. or less R.A.M., seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "160": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction probably 50 m. or more making way seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "161": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction probably 50 m. or more making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "162": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction, less than 50 m. at anchor, or making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and if at anchor also a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "163": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction, less than 50 m. at anchor, or making way seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line and if at anchor also a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "164": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction, less than 50 m. at anchor, or making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and if at anchor also a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "165": {
+      "identification": "v/l R.A.M. or dredger / uwo without obstruction probably 50 m. or more but less than 100 m. at anchor, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "166": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow 200 m. or less R.A.M. seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "167": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow 200 m. or less R.A.M. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "168": {
+      "identification": "P.D. v/l towing underway R.A.M. seen end on, (a) less than 50 m. tow exceeds 200 m. (b) probably 50 m. or more, tow 200 m. or less.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and if tow exceeds 200 m. also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "169": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less R.A.M. seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "170": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less R.A.M. seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "171": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less R.A.M. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "172": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow 200 m. or less R.A.M. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "173": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow exceeds 200 m. R.A.M. seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line and also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "174": {
+      "identification": "P.D. v/l towing less than 50 m. underway tow exceeds 200 m. R.A.M. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "175": {
+      "identification": "P.D. v/l towing probably 50 m. or more  underway tow exceeds 200 m. R.A.M. seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "176": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m. R.A.M. seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line and also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "177": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m. R.A.M. seen from stbd side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line and also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "178": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m. R.A.M. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "179": {
+      "identification": "P.D. v/l towing probably 50 m. or more underway tow exceeds 200 m. R.A.M. seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "180": {
+      "identification": "P.D. v/l towing underway R.A.M. seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and if tow exceeds 200 m. also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "181": {
+      "identification": "P.D. v/l towing underway R.A.M. seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line and if tow exceeds 200 m. also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "182": {
+      "identification": "P.D. v/l towing underway R.A.M. seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line and if tow exceeds 200 m. also a diamond.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "191": {
+      "identification": "Dredger / uwo less than 50 m. R.A.M. with obstruction on stbd. side making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "192": {
+      "identification": "Dredger / uwo less than 50 m. R.A.M. with obstruction on port side making way seen end on.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "193": {
+      "identification": "Dredger / uwo less than 50 m. R.A.M. indicating stbd. side as clear side for another vessel to pass, making way seen from stbd. side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "194": {
+      "identification": "Dredger / uwo less than 50 m. R.A.M. with obstruction on stbd. side making way seen from stbd. side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "195": {
+      "identification": "Dredger / uwo less than 50 m. R.A.M. indicating port side as clear side for another vessel to pass, making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "196": {
+      "identification": "Dredger / uwo less than 50 m. R.A.M. with obstruction on port side making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "197": {
+      "identification": "Dredger / uwo probably 50 m. or more R.A.M. with obstruction on port side making way seen end on.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "198": {
+      "identification": "Dredger / uwo probably 50 m. or more R.A.M. with obstruction on stbd. side making way seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "199": {
+      "identification": "Dredger / uwo probably 50 m. or more R.A.M. indicating stbd. side as clear side for another vessel to pass, making way seen from stbd. side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "200": {
+      "identification": "Dredger / uwo probably 50 m. or more R.A.M. with obstruction on stbd. side making way  seen from stbd. side.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "201": {
+      "identification": "Dredger / uwo probably 50 m. or more R.A.M. indicating port side as clear side for another vessel to pass, making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "202": {
+      "identification": "Dredger / uwo probably 50 m. or more R.A.M. with obstruction on port side making way seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "203": {
+      "identification": "Dredger / uwo R.A.M. with obstruction on stbd. side making way seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "204": {
+      "identification": "Dredger / R.A.M. with obstruction on port side making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "205": {
+      "identification": "Dredger / uwo R.A.M. with obstruction on stbd. side making way seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "206": {
+      "identification": "Dredger / uwo R.A.M. with obstruction on port side making way seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "207": {
+      "identification": "Dredger / uwo R.A.M. with obstruction underway but stopped or at anchor.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Ball, diamond and ball in vertical line. Also two diamonds in vertical line on safe side and two balls in vertical line on obstruction side.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "208": {
+      "identification": "(a) v/l R.A.M. or dredger / uwo without  obstruction underway but stopped. (b) Small v/l engaged in diving operations.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "(a) Ball, diamond and ball in vertical line. (b) Rigid flag A.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "209": {
+      "identification": "Mine clearance v/l less than 50 m. underway seen end on.",
+      "action": "One short blast a/c to stbd. and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "210": {
+      "identification": "Mine clearance v/l less than 50 m. underway seen from stbd. side.",
+      "action": "Two short blasts a/c to port and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "211": {
+      "identification": "Mine clearance v/l less than 50 m. underway seen from port side.",
+      "action": "One short blast a/c to stbd. and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "212": {
+      "identification": "Mine clearance v/l probably 50 m. or more underway seen end on.",
+      "action": "One short blast a/c to stbd. and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "213": {
+      "identification": "Mine clearance v/l probably 50 m. or more underway seen from stbd. side.",
+      "action": "Two short blasts a/c to port and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "214": {
+      "identification": "Mine clearance v/l probably 50 m. or more underway seen from port side.",
+      "action": "One short blast a/c to stbd. and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "215": {
+      "identification": "Mine clearance v/l underway seen from astern or less than 50 m. at anchor.",
+      "action": "One short blast a/c to stbd. and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard. Also if at anchor, a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "216": {
+      "identification": "Mine clearance v/l underway seen from astern or less than 50 m. at anchor.",
+      "action": "Two short blasts a/c to port and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard. Also, if at anchor, a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "217": {
+      "identification": "Mine clearance v/l underway seen from astern or less than 50 m. at anchor.",
+      "action": "One short blast a/c to stbd. and pass more than 1000 m.",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard. Also, if at anchor, a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "218": {
+      "identification": "Mine clearance v/l probably 50 m. or more but less than 100 m. at anchor, seen from stbd. side.",
+      "action": "Two short blasts a/c to port and pass more than 1000 m",
+      "day_signal": "Three balls - one at foremast head and one at each end of fore yard. Also, a ball in fore part.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "219": {
+      "identification": "v/l C.B.D. less than 50 m. underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "220": {
+      "identification": "v/l C.B.D. less than 50 m. underway seen from stbd. side.",
+      "action": "One short blast a/c to stbd. and go round her stern.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "221": {
+      "identification": "v/l C.B.D. less than 50 m. underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "222": {
+      "identification": "v/l C.B.D. probably 50 m. or more underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "223": {
+      "identification": "v/l C.B.D. probably 50 m. or more underway seen from stbd. side.",
+      "action": "One short blast a/c to stbd. and go round her stern.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "224": {
+      "identification": "v/l C.B.D. probably 50 m. or more underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "225": {
+      "identification": "v/l C.B.D. underway seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "226": {
+      "identification": "v/l C.B.D. underway seen from astern.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "227": {
+      "identification": "v/l C.B.D. underway seen from astern.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "A cylinder.",
+      "fog_signal": "One prolonged and two short blasts.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "228": {
+      "identification": "Pilot vessel underway seen end on.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Flag H.",
+      "fog_signal": "Making way - One prolonged blast. \n Stopped - Two prolonged blasts with 2 secs. interval in between. \n Additional - Four short blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "229": {
+      "identification": "Pilot vessel underway seen from stbd side.",
+      "action": "Maintain course and speed.",
+      "day_signal": "Flag H.",
+      "fog_signal": "Making way - One prolonged blast. \n Stopped - Two prolonged blasts with 2 secs. interval in between. \n Additional - Four short blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "230": {
+      "identification": "Pilot vessel underway seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Flag H.",
+      "fog_signal": "Making way - One prolonged blast. \n Stopped - Two prolonged blasts with 2 secs. interval in between. \n Additional - Four short blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "231": {
+      "identification": "Pilot vessel underway seen from astern or less than 50 m. at anchor.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Flag H. Also, if at anchor, a ball in fore part.",
+      "fog_signal": "Making way - One prolonged blast. \n Stopped - Two prolonged blasts with 2 secs. interval in between. Anchored - Rapid ringing of bell for 5 secs. \n Additional - Four short blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "232": {
+      "identification": "Pilot vessel underway seen from astern or less than 50 m. at anchor.",
+      "action": "Two short blasts a/c to port.",
+      "day_signal": "Flag H. Also, if at anchor, a ball in fore part.",
+      "fog_signal": "Making way - One prolonged blast. \n Stopped - Two prolonged blasts with 2 secs. interval in between. Anchored - Rapid ringing of bell for 5 secs. \n Additional - Four short blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "233": {
+      "identification": "Pilot vessel underway seen from astern or less than 50 m. at anchor.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "Flag H. Also, if at anchor, a ball in fore part.",
+      "fog_signal": "Making way - One prolonged blast. \n Stopped - Two prolonged blasts with 2 secs. interval in between. Anchored - Rapid ringing of bell for 5 secs. \n Additional - Four short blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "234": {
+      "identification": "Pilot v/l probably 50 m. or more but less than 100 m. at anchor, seen from port side.",
+      "action": "One short blast a/c to stbd.",
+      "day_signal": "A ball in fore part and flag H. (As per Int. Code of Signals).",
+      "fog_signal": "Rapid ringing of bell for 5 secs. Additional - Four short blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    },
+    "235": {
+      "identification": "Aground v/l probably 50 m. or more, seen from port side.",
+      "action": "One short blast a/c to stbd, reverse course and inform Master.",
+      "day_signal": "Three balls in vertical line.",
+      "fog_signal": "Less than 100 m. - Three strokes on bell before and after rapid ringing of bell for 5 secs. \n 100 m. or more - Three strokes on bell before and after rapid ringing of bell for 5 secs. in fore part and rapid ringing of gong for 5 secs. in after part.\n Additional - Two short and one prolonged blasts may be sounded.",
+      "type_of_vessel": "Power-Driven / Special Vessel",
+      "maneuvering_status": "Underway / Special",
+      "seen_from": "See aspect"
+    }
+  },
+  "iala": {
+    "1": {
+      "title": "region a lateral port hand mark",
+      "identification": "Colour : Red",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "2": {
+      "title": "region a lateral port hand mark",
+      "identification": "Colour : Red",
+      "action": "Topmark : Single red cylinder (can)",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "3": {
+      "title": "region a lateral port hand mark",
+      "identification": "Colour : Red",
+      "action": "Topmark : Single red cylinder (can)",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "4": {
+      "title": "Region A Lateral Starboard Hand Mark",
+      "identification": "Colour : Green",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "5": {
+      "title": "Region A Lateral Starboard Hand Mark",
+      "identification": "Colour : Green",
+      "action": "Topmark : Single green cone, point upward",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "6": {
+      "title": "Region A Lateral Starboard Hand Mark",
+      "identification": "Colour : Green",
+      "action": "Topmark : Single green cone, point upward",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "7": {
+      "title": "region a preferred channel to starboard",
+      "identification": "Colour : Red with one broad green horizontal band",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "8": {
+      "title": "region a preferred channel to starboard",
+      "identification": "Colour : Red with one broad green horizontal band",
+      "action": "Topmark : Single red cylinder (can)",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "9": {
+      "title": "region a preferred channel to starboard",
+      "identification": "Colour : Red with one broad green horizontal band",
+      "action": "Topmark : Single red cylinder (can)",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "10": {
+      "title": "region a preferred channel to port",
+      "identification": "Colour : Green with one broad red horizontal band",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "11": {
+      "title": "region a preferred channel to port",
+      "identification": "Colour : Green with one broad red horizontal band",
+      "action": "Topmark : Single green cone, point upward",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "12": {
+      "title": "region a preferred channel to port",
+      "identification": "Colour : Green with one broad red horizontal band",
+      "action": "Topmark : Single green cone, point upward",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "13": {
+      "title": "region b lateral port hand mark",
+      "identification": "Colour : Green",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "14": {
+      "title": "region b lateral port hand mark",
+      "identification": "Colour : Green",
+      "action": "Topmark : Single green cylinder (can)",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "15": {
+      "title": "region b lateral port hand mark",
+      "identification": "Colour : Green",
+      "action": "Topmark : Single green cylinder (can)",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "16": {
+      "title": "region b lateral starboard hand mark",
+      "identification": "Colour : Red",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "17": {
+      "title": "Region B Lateral Starboard Hand Mark",
+      "identification": "Colour : Red",
+      "action": "Topmark :Single red cone, point upward",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "18": {
+      "title": "Region B Lateral starboard hand mark",
+      "identification": "Colour : Red",
+      "action": "Topmark : Single red cone, point upward",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Any other than composite group flashing (2+1)"
+    },
+    "19": {
+      "title": "region b preferred channel to starboard",
+      "identification": "Colour : Green with one broad red horizontal band",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "20": {
+      "title": "region b preferred channel to starboard",
+      "identification": "Colour : Green with one broad red horizontal band",
+      "action": "Topmark : Single green cylinder (can)",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "21": {
+      "title": "region b preferred channel to starboard",
+      "identification": "Colour : Green with one broad red horizontal band",
+      "action": "Topmark : Single green cylinder (can)",
+      "day_signal": "Light : (when fitted) Green",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "22": {
+      "title": "region b preferred channel to port",
+      "identification": "Colour : Red with one broad green horizontal band",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "23": {
+      "title": "region b preferred channel to port",
+      "identification": "Colour : Red with one broad green horizontal band",
+      "action": "Topmark : Single red cone, point upward",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "24": {
+      "title": "region b preferred channel to port",
+      "identification": "Colour : Red with one broad green horizontal band",
+      "action": "Topmark : Single red cone, point upward",
+      "day_signal": "Light : (when fitted) Red",
+      "fog_signal": "Rhythm : Composite group flashing (2+1)"
+    },
+    "25": {
+      "title": "cardinal mark",
+      "identification": "Colour : Black above yellow",
+      "action": "Topmark : 2 black cones, one above the other, points upward",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick or Quick flashing"
+    },
+    "26": {
+      "title": "cardinal mark",
+      "identification": "Colour : Black above yellow",
+      "action": "Topmark : 2 black cones, one above the other, points upward",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick or Quick flashing"
+    },
+    "27": {
+      "title": "cardinal mark",
+      "identification": "Colour : Black with a single broad horizontal yellow band",
+      "action": "Topmark : 2 black cones, one above the other, base to base",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick(3) every 5s or Quick(3) every 10s"
+    },
+    "28": {
+      "title": "cardinal mark",
+      "identification": "Colour : Black with a single broad horizontal yellow band",
+      "action": "Topmark : 2 black cones, one above the other, base to base",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick(3) every 5s or Quick(3) every 10s"
+    },
+    "29": {
+      "title": "cardinal mark",
+      "identification": "Colour : Yellow above black",
+      "action": "Topmark : 2 black cones, one above the other, points downward",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick(6) + Long flash every 10s or Quick(6) + Long flash every 15s"
+    },
+    "30": {
+      "title": "cardinal mark",
+      "identification": "Colour : Yellow above black",
+      "action": "Topmark : 2 black cones, one above the other, points downward",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick(6) + Long flash every 10s or Quick(6) + Long flash every 15s"
+    },
+    "31": {
+      "title": "cardinal mark",
+      "identification": "Colour : Yellow with a single broad horizontal black band",
+      "action": "Topmark : 2 black cones, one above the other, point to point",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick(9) every 10s or Quick(9) every 15s"
+    },
+    "32": {
+      "title": "cardinal mark",
+      "identification": "Colour : Yellow with a single broad horizontal black band",
+      "action": "Topmark : 2 black cones, one above the other, point to point",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Very Quick(9) every 10s or Quick(9) every 15s"
+    },
+    "33": {
+      "title": "isolated danger mark",
+      "identification": "Shape : Optional, but not conflicting with lateral marks, pillar or spar",
+      "action": "Colour : Black with one or more broad horizontal red bands",
+      "day_signal": "Topmark : 2 black spheres, one above the other",
+      "fog_signal": "Light : (when fitted) White"
+    },
+    "34": {
+      "title": "isolated danger mark",
+      "identification": "Shape : Optional, but not conflicting with lateral marks, pillar or spar",
+      "action": "Colour : Black with one or more broad horizontal red bands",
+      "day_signal": "Topmark : 2 black spheres, one above the other",
+      "fog_signal": "Light : (when fitted) White"
+    },
+    "35": {
+      "title": "safe water mark",
+      "identification": "Colour : Red and White vertical stripes",
+      "action": "Topmark : Nil",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Isophase, occulting, one long flash every 10s or Morse \"A\""
+    },
+    "36": {
+      "title": "safe water mark",
+      "identification": "Colour : Red and White vertical stripes",
+      "action": "Topmark : Single red sphere",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm: Isophase occulting, one long flash every 10s or Morse \"A\""
+    },
+    "37": {
+      "title": "safe water mark",
+      "identification": "Colour : Red and White vertical stripes",
+      "action": "Topmark : Single red sphere",
+      "day_signal": "Light : (when fitted) White",
+      "fog_signal": "Rhythm : Isophase, occulting, one long flash every 10s or Morse \"A\""
+    },
+    "38": {
+      "title": "Special mark",
+      "identification": "Shape : Optional, but not conflicting with Navigational Marks",
+      "action": "Colour : Yellow",
+      "day_signal": "Topmark : Single yellow 'X' shape",
+      "fog_signal": "Light : (when fitted) Yellow"
+    },
+    "39": {
+      "title": "Emergency Wreck Marking Buoy",
+      "identification": "Colour : Equal number and dimension blue & yellow vertical strips Min. 4 strips and Max. 8 stripes",
+      "action": "Topmark : If fitted, standing upright yellow cross",
+      "day_signal": "Light : Blue and Yellow alternated",
+      "fog_signal": "Rhythm : 1 sec flashes with interval 0.5 sec alternate blue and yellow light"
+    },
+    "40": {
+      "title": "Emergency Wreck Marking Buoy",
+      "identification": "Colour : Equal number and dimension blue & yellow vertical strips Min. 4 strips and Max. 8 stripes",
+      "action": "Topmark : If fitted, standing upright yellow cross",
+      "day_signal": "Light : Blue and Yellow alternated",
+      "fog_signal": "Rhythm : 1 sec flashes with interval 0.5 sec alternate blue and yellow light"
+    }
+  },
+  "flags": {
+    "1": {
+      "title": "0",
+      "identification": "Number Zero",
+      "action": "0",
+      "day_signal": "0",
+      "fog_signal": "-"
+    },
+    "2": {
+      "title": "1",
+      "identification": "Number One",
+      "action": "1",
+      "day_signal": "1",
+      "fog_signal": "-"
+    },
+    "3": {
+      "title": "2",
+      "identification": "Number Two",
+      "action": "2",
+      "day_signal": "2",
+      "fog_signal": "-"
+    },
+    "4": {
+      "title": "3",
+      "identification": "Number Three",
+      "action": "3",
+      "day_signal": "3",
+      "fog_signal": "-"
+    },
+    "5": {
+      "title": "4",
+      "identification": "Number Four",
+      "action": "4",
+      "day_signal": "4",
+      "fog_signal": "-"
+    },
+    "6": {
+      "title": "5",
+      "identification": "Number Five",
+      "action": "5",
+      "day_signal": "5",
+      "fog_signal": "-"
+    },
+    "7": {
+      "title": "6",
+      "identification": "Number Six",
+      "action": "6",
+      "day_signal": "6",
+      "fog_signal": "-"
+    },
+    "8": {
+      "title": "7",
+      "identification": "Number Seven",
+      "action": "7",
+      "day_signal": "7",
+      "fog_signal": "-"
+    },
+    "9": {
+      "title": "8",
+      "identification": "Number Eight",
+      "action": "8",
+      "day_signal": "8",
+      "fog_signal": "-"
+    },
+    "10": {
+      "title": "9",
+      "identification": "Number Nine",
+      "action": "9",
+      "day_signal": "9",
+      "fog_signal": "-"
+    },
+    "11": {
+      "title": "A",
+      "identification": "I have a diver down; keep well clear at slow speed.",
+      "action": "A",
+      "day_signal": "A",
+      "fog_signal": "-"
+    },
+    "12": {
+      "title": "B",
+      "identification": "I am taking in or discharging or carrying dangerous goods.",
+      "action": "B",
+      "day_signal": "B",
+      "fog_signal": "-"
+    },
+    "13": {
+      "title": "C",
+      "identification": "Yes (Affirmative).",
+      "action": "C",
+      "day_signal": "C",
+      "fog_signal": "-"
+    },
+    "14": {
+      "title": "D",
+      "identification": "Keep clear of me, I am manoeuvring with difficulty.",
+      "action": "Code_answering",
+      "day_signal": "D",
+      "fog_signal": "-"
+    },
+    "15": {
+      "title": "E",
+      "identification": "I am altering course to starboard.",
+      "action": "D",
+      "day_signal": "E",
+      "fog_signal": "-"
+    },
+    "16": {
+      "title": "F",
+      "identification": "I am disabled. Communicate with me.",
+      "action": "E",
+      "day_signal": "F",
+      "fog_signal": "-"
+    },
+    "17": {
+      "title": "G",
+      "identification": "I require a pilot.When made by fishing vessels operating in close proximity of fishing grounds, it means \"I am hauling nets\".",
+      "action": "F",
+      "day_signal": "G",
+      "fog_signal": "-"
+    },
+    "18": {
+      "title": "H",
+      "identification": "I have a pilot on board.",
+      "action": "First_subtitle",
+      "day_signal": "H",
+      "fog_signal": "-"
+    },
+    "19": {
+      "title": "I",
+      "identification": "I am altering course to port.",
+      "action": "G",
+      "day_signal": "I",
+      "fog_signal": "-"
+    },
+    "20": {
+      "title": "J",
+      "identification": "I am on fire and have dangerous cargo on board, keep well clear of me.",
+      "action": "H",
+      "day_signal": "J",
+      "fog_signal": "-"
+    },
+    "21": {
+      "title": "K",
+      "identification": "I wish to communicate with you.",
+      "action": "I",
+      "day_signal": "K",
+      "fog_signal": "-"
+    },
+    "22": {
+      "title": "L",
+      "identification": "You should stop your vessel instantly.",
+      "action": "J",
+      "day_signal": "L",
+      "fog_signal": "-"
+    },
+    "23": {
+      "title": "M",
+      "identification": "My vessel is stopped and making no way through the water.",
+      "action": "K",
+      "day_signal": "M",
+      "fog_signal": "-"
+    },
+    "24": {
+      "title": "N",
+      "identification": "No (Negative).",
+      "action": "L",
+      "day_signal": "N",
+      "fog_signal": "-"
+    },
+    "25": {
+      "title": "O",
+      "identification": "Man overboard.",
+      "action": "M",
+      "day_signal": "O",
+      "fog_signal": "-"
+    },
+    "26": {
+      "title": "P",
+      "identification": "In harbour - The vessel is about to proceed to sea. All persons report for duty.When displayed at sea it means \"My nets have come fast upon an obstruction\".",
+      "action": "N",
+      "day_signal": "P",
+      "fog_signal": "-"
+    },
+    "27": {
+      "title": "Q",
+      "identification": "My vessel is healthy and I request free pratique.",
+      "action": "O",
+      "day_signal": "Q",
+      "fog_signal": "-"
+    },
+    "28": {
+      "title": "R",
+      "identification": "This flag has no single letter meaning.",
+      "action": "P",
+      "day_signal": "R",
+      "fog_signal": "-"
+    },
+    "29": {
+      "title": "S",
+      "identification": "My engines are going astern.",
+      "action": "Q",
+      "day_signal": "S",
+      "fog_signal": "-"
+    },
+    "30": {
+      "title": "T",
+      "identification": "Keep clear of me. I am engaged in pair trawling.",
+      "action": "R",
+      "day_signal": "T",
+      "fog_signal": "-"
+    },
+    "31": {
+      "title": "U",
+      "identification": "You are running into danger.",
+      "action": "S",
+      "day_signal": "U",
+      "fog_signal": "-"
+    },
+    "32": {
+      "title": "V",
+      "identification": "I require assistance.",
+      "action": "Second_substitude",
+      "day_signal": "V",
+      "fog_signal": "-"
+    },
+    "33": {
+      "title": "W",
+      "identification": "I require medical assistance.",
+      "action": "T",
+      "day_signal": "W",
+      "fog_signal": "-"
+    },
+    "34": {
+      "title": "X",
+      "identification": "Stop carrying out your intentions & watch for my signals.",
+      "action": "Third Subsitude",
+      "day_signal": "X",
+      "fog_signal": "-"
+    },
+    "35": {
+      "title": "Y",
+      "identification": "I am dragging anchor.",
+      "action": "U",
+      "day_signal": "Y",
+      "fog_signal": "-"
+    },
+    "36": {
+      "title": "Z",
+      "identification": "I require a tug.When made by fishing vessels operating in close proximity on the fishing grounds it means \"I am shooting nets\".",
+      "action": "V",
+      "day_signal": "Z",
+      "fog_signal": "-"
+    },
+    "37": {
+      "title": "Code and Answering Pendant",
+      "identification": "Code and Answering pendant .",
+      "action": "W",
+      "day_signal": "Code and Answering Pendant",
+      "fog_signal": "-"
+    },
+    "38": {
+      "title": "First Substitute",
+      "identification": "First substitute.",
+      "action": "flag_an_x.gif",
+      "day_signal": "First Substitute",
+      "fog_signal": "-"
+    },
+    "39": {
+      "title": "Second Substitute",
+      "identification": "Second substitute.",
+      "action": "Y",
+      "day_signal": "Second Substitute",
+      "fog_signal": "-"
+    },
+    "40": {
+      "title": "Third Substitute",
+      "identification": "Third substitute.",
+      "action": "Z",
+      "day_signal": "Third Substitute",
+      "fog_signal": "-"
+    }
+  }
+}
