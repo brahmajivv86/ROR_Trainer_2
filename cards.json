@@ -2595,7 +2595,7 @@
       "action": "-",
       "day_signal": "Flag K",
       "fog_signal": "-",
-      "image": "images/flags/flag_an_K.gif"
+      "image": "images/flags/flag_an_k.gif"
     },
     "24": {
       "id": "24",
@@ -2676,7 +2676,7 @@
       "action": "-",
       "day_signal": "Second Substitute",
       "fog_signal": "-",
-      "image": "images/flags/flag_an_second_substitude.gif"
+      "image": "images/flags/flag_an_second_substitute.gif"
     },
     "33": {
       "id": "33",
@@ -2694,7 +2694,7 @@
       "action": "-",
       "day_signal": "Third Substitute",
       "fog_signal": "-",
-      "image": "images/flags/flag_an_third_substitude.gif"
+      "image": "images/flags/flag_an_third_substitute.gif"
     },
     "35": {
       "id": "35",
