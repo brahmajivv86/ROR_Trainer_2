@@ -445,7 +445,7 @@ function loadTrainerCard() {
         trainerInfoDay.textContent = card.day_signal || 'No day signal specified.';
         trainerInfoFog.textContent = card.fog_signal || '-';
     } else if (type === 'flags') {
-        trainerImg.src = `images/flags/flag_an_${parseInt(item.cardId) - 1}.gif`;
+        trainerImg.src = card.image || `images/flags/flag_an_${parseInt(item.cardId) - 1}.gif`;
         trainerImg.alt = `International Code Flag #${item.cardId}`;
         trainerCardLabel.textContent = `Code Flag #${item.cardId}`;
         trainerBackTitle.textContent = card.title || `Code Flag #${item.cardId}`;
@@ -553,7 +553,7 @@ function loadQuizQuestion() {
         quizQuestionTypeBadge.textContent = 'IALA Buoyage';
         quizQuestionTypeBadge.className = 'badge badge-teal';
     } else if (type === 'flags') {
-        quizQuestionImg.src = `images/flags/flag_an_${parseInt(item.cardId) - 1}.gif`;
+        quizQuestionImg.src = card.image || `images/flags/flag_an_${parseInt(item.cardId) - 1}.gif`;
         quizQuestionImg.alt = `Quiz Flag #${item.cardId}`;
         quizCardNumberLabel.textContent = `Code Flag #${item.cardId}`;
         quizQuestionTypeBadge.textContent = 'Code Flag';
