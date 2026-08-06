@@ -38,7 +38,7 @@ Open your browser at `http://localhost:8000`.
 ## 📁 Repository Structure
 
 ```
-ROR_Trainer_2/
+ROR_Trainer/
 ├── index.html        # Main HTML layout with dark mode glassmorphism
 ├── app.js            # Quiz & Trainer interactive logic
 ├── app.css           # Premium styling & animations
